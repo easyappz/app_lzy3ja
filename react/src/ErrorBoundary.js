@@ -20,7 +20,7 @@ class ErrorBoundary extends React.Component {
 
   render() {
     if (this.state.hasError) {
-      return <h1>Что-то пошло не так.</h1>;
+      return <h1 data-easytag="id1-react/src/ErrorBoundary.js">Что-то пошло не так.</h1>;
     }
 
     return this.props.children;
